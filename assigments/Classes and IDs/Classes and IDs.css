@@ -1,0 +1,13 @@
+#main-title {
+    background-color: yellow;
+    color: grey;
+    width: 400px;
+    text-align: center;
+}
+
+.title {
+    background-color: grey;
+    color: white;
+    width: 400px;
+    text-align: center;
+}
