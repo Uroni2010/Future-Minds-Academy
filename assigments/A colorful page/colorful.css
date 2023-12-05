@@ -1,0 +1,21 @@
+body {
+    background-image: url(./images/premier-league-football-1504x846px.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    background-color: white;
+    color: black;
+}
+
+ul {
+    background-color: rgba(0, 4, 255, 0.3);
+    color: limegreen;
+}
+
+p {
+    background: rgb(76, 174, 57);
+    height: 150px;
+    background: linear-gradient(90deg, rgba(76, 174, 57, 1) 22%, rgba(253, 29, 29, 1) 50%, rgba(69, 76, 252, 1) 100%);
+}

@@ -1,0 +1,21 @@
+th,
+td {
+    border-bottom: 1px solid white;
+
+}
+
+table {
+    background-color: blue;
+    width: 50%;
+    color: white;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+    background-color: aqua;
+}
+
+th {
+    background-color: cyan;
+    font-family: 'Courier New', Courier, monospace;
+}

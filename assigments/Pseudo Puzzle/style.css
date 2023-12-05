@@ -1,0 +1,11 @@
+p {
+    background-color: blue;
+}
+
+p:hover {
+    background-color: crimson;
+}
+
+p:hover::first-letter {
+    font-size: 100px;
+}

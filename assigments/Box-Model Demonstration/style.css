@@ -1,0 +1,14 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    object-position: center;
+    text-align: center;
+    width: 200px;
+    background-color: bisque;
+    padding: 20px;
+    margin: 50px;
+    border: 3px solid black;
+}
