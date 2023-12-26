@@ -1,0 +1,15 @@
+body {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center {
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border: 10px solid green;
+}

@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: brown;
+}
+
+img {
+    width: 100px;
+}
+
+.dFlex {
+    display: flex;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.alignItems {
+    align-items: center;
+}
+
+.padding10px {
+    padding: 0px 10px;
+}
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.gap2 {
+    gap: 2rem;
+}
+
+.textWhite a {
+    color: white;
+}
+
+.textWhite a {
+    background-color: yellow;
+    border: solid 3px black;
+    border-radius: 20%; 
+    padding: 10px;
+}
+
+aside{
+    background-color: aqua;
+    height: 100vh;
+    flex: 2;
+    flex-direction: column;
+}
+
+main{
+    background-color: violet;
+    height: 100vh;
+    flex: 13;
+}
