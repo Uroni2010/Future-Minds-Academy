@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+div {
+    padding: 0px;
+    margin: 0px;
+}
+
+.Hello {
+    background-color: dimgray;
+    color: antiquewhite;
+
+}
+
+.Goodbye {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.black {
+    text-decoration: underline solid 4px;
+}
+
+.white {
+    text-decoration: underline solid 4px;
+}
+
+hr {
+    background-color: rgb(31, 180, 17);
+    border-width: 0;
+    height: 3px;
+    width: 30%;
+    padding-top: 0px;
+    padding-right: 0px;
+}
