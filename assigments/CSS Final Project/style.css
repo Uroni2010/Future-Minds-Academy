@@ -1,0 +1,72 @@
+/* Global */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    grid-template-columns: auto 1fr;
+}
+
+.gridTemplateColumns {
+    grid-template-columns: auto 3fr auto;
+}
+
+.alignItemsCenter {
+    align-items: center;
+}
+
+.gap10 {
+    gap: 10px;
+}
+
+.dGrid {
+    display: grid;
+}
+
+.dFlex {
+    display: flex;
+}
+
+/* Aside */
+
+.asideElemenets:hover {
+    background-color: rgba(85, 6, 6, 0.479);
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.dashboardActive {
+    background-color: red;
+    border-radius: 12px;
+}
+
+.aside {
+    color: white;
+    background-color: black;
+    height: 100vh;
+    background-image: url(./Images/assets/images/sidebar-1.jpg);
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.637);
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.elements {
+    padding: 10px 15px;
+    gap: 10px;
+}
+
+/* Header */
+
+.header{
+}
+
+.headerSearch {
+    
+    justify-content: space-between;
+}

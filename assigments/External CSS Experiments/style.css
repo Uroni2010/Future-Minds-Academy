@@ -1,0 +1,21 @@
+body {
+    margin: 32px;
+}
+
+h1 {
+    background-color: rgba(221, 255, 0, 0.333);
+    color: white;
+    padding: 32px;
+}
+
+h2 {
+    background-color: brown;
+    color: black;
+    padding: 32px;
+}
+
+p {
+    background-color: burlywood;
+    color: aqua;
+    padding: 32px;
+}

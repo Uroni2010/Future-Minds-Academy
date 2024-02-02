@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.div-container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid 3px black;
+}
+
+h1 {
+    margin: 0px 0px;
+}
+
+.css {
+    background: green;
+}
+
+.html {
+    background-color: blue;
+}
+
+.javaSc {
+    background-color: red;
+}
+
+.login {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: transparent;
+    padding: 15px;
+}
+
+span {
+    color: blue;
+}
+
+.mainparagraph {
+    margin-top: 0px;
+}
+
+aside {
+    background-color: rgba(26, 8, 98, 0.743);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: right;
+
+}
+
+.figurePhoto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.textAlignC {
+    text-align: center;
+}
+
+main {
+    margin: 80px 35px;
+}
+
+figure {
+    grid-column: 4/5;
+}
+
+@media screen and (max-width: 700px){
+    .div-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 15fr ;
+        height: 30vh;
+    }
+}

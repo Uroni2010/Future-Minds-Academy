@@ -1,25 +1,27 @@
-body {
+* {
     margin: 0px;
     padding: 0px;
 }
 
-header{
-    display: grid;
-    background-color: red;
-    grid-template-columns: 3fr 1fr;
-    align-items: center;
+.Animation {
+    width: 240px;
+    height: auto;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-name: Uron;
 }
 
-ul {
-display: grid;
-grid-template-columns: repeat(3, 200px);
+@keyframes Uron{
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+    }
 }
 
-.uron{
-    background-color: grey;
-    display: grid;
-}
-.main {
-    display: grid;
-    
+.paragraph {
+    margin-left: 40px;  
+    visibility: hidden; 
 }
