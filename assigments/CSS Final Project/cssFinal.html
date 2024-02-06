@@ -120,15 +120,23 @@
     </div>
 
     <header class="header">
-        <div class="dFlex spaceBetween headerElements gap10">
+        <div class="dFlex spaceBetween headerElements">
             <div class="dFlex alignItemsCenter gap10">
-                <figure class="roundBackround dFlex center"><img src="./Images/assets/icons/header/more.svg" alt=""></figure>
+                <figure class="roundBackround dFlex center"><img src="./Images/assets/icons/header/more.svg" alt="">
+                </figure>
                 <p>Dashboard</p>
             </div>
-            <div class="headerSearch dFlex center alignItemsCenter gap10">
+            <div class="headerSearch dFlex center alignItemsCenter gap20">
                 <div class="dFlex alignItemsCenter">
-                    <p class="searchHeader">Search</p>
-                    <figure class="roundBackround dFlex center"><img src="./Images/assets/icons/header/search.svg" alt="search"></figure>
+                    <form class="dFlex">
+                        <input type="search" id="search" placeholder="Search" class="search">
+                        <label for="Search">
+                            <figure class="roundBackround dFlex center">
+                                <img src="./Images/assets/icons/header/search.svg" alt="search">
+                            </figure>
+                        </label>
+                    </form>
+
                 </div>
                 <figure><img src="./Images/assets/icons/header/headerDashboard.svg" alt="Dashboard"></figure>
                 <figure><img src="./Images/assets/icons/header/notifications.svg" alt="Noty"></figure>
