@@ -8,6 +8,11 @@ body {
     grid-template-columns: auto 1fr;
 }
 
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
 .gridTemplateColumns {
     grid-template-columns: auto 3fr auto;
 }
@@ -64,9 +69,26 @@ body {
 /* Header */
 
 .header{
+    background-color: rgb(191, 183, 183);
 }
 
-.headerSearch {
-    
+.headerElements {
+    padding: 10px;
+}
+
+.searchHeader {
+    padding-right: 100px;
+}
+
+.spaceBetween {
     justify-content: space-between;
 }
+
+.roundBackround {
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+}
+
