@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        let random = Math.floor(Math.random() * 20) + 1;
+
+        let playerOneAnswer = parseInt(prompt('Write a number from 1 to 20'));
+        let playerTwoAnswer = parseInt(prompt('Write a number from 1 to 20'));
+
+        if (isNaN(playerOneAnswer) || isNaN(playerTwoAnswer)
+            || playerOneAnswer < 0 || playerOneAnswer > 20 || playerTwoAnswer < 0 || playerTwoAnswer > 20)
+
+            throw new Error('invalip input');
+
+        let playerOneDistance = Math.abs(random - playerOneAnswer);
+        let playerTwoDistance = Math.abs(random - playerTwoAnswer);
+
+        alert(`Correct answer is ${random}`)
+
+        if (playerOneDistance < playerTwoDistance) {
+            alert('player one won')
+        }
+        else if (playerTwoDistance < playerOneDistance) {
+            alert('player two won')
+        }
+        else {
+            alert('It is tie');
+        }
+    </script>
+</body>
+
+</html>
